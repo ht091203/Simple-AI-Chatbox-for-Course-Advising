@@ -1,0 +1,121 @@
+KHOÁ HỌC: LẬP TRÌNH PYTHON CƠ BẢN
+Fundamentals of Python (Python cơ bản)
+I. Giới thiệu
+• Khóa học cung cấp cho học viên (HV) những kiến thức nền tảng và những kỹ năng cần thiết để có thể xây dựng các ứng dụng đơn giản bằng Python – một ngôn ngữ lập trình cấp cao, thông dịch, hướng đối tượng và đa mục đích.
+• Rèn luyện và phát triển kỹ năng lập trình, tư duy logic.
+• Xây dựng nền tảng cơ bản vững chắc trong ngôn ngữ lập trình Python tạo tiền đề cho việc học các kiến thức lập trình Web, Game, Desktop, Machine Learning, Data Science... phát triển nghề nghiệp.
+• Là khóa học đầu tiên trong chương trình “Data Science & Machine Learning Certificate"
+
+II. KHÓA HỌC DÀNH CHO:
+• Sinh viên các trường Đại học, Cao đẳng
+• HV có định hướng sẽ làm việc với Python để xây dựng ứng dụng/ Machine Learning/ Data Science
+• Tất cả những ai muốn tìm hiểu về lập trình Python để ứng dụng trong công việc, học tập và cuộc sống.
+• Điều kiện cần khi tham gia khóa học: HV có kiến thức tin học văn phòng và sử dụng Internet
+SAU KHÓA HỌC BẠN HOÀN TOÀN CÓ THỂ:
+• Sử dụng các cấu trúc trong ngôn ngữ lập trình Python để xây dựng ứng dụng
+• Nắm vững và sử dụng các kiểu dữ liệu, toán tử, cấu trúc điều khiển, cấu trúc lặp.
+• Biết cách xây dựng và sử dụng Hàm (Built-in function và User-defined function).
+• Ứng dụng Lập trình hướng đối tượng (OOP) để giải quyết các vấn đề trong lập trình.
+• Làm việc với kiểu dữ liệu danh sách (List, Tuple, Dictionary và Set)
+• Làm việc với tập tin và thư mục.
+• Tổ chức module/package và quản lý các package với PIP.
+• Nắm vững kiến thức lập trình Python nền tảng, dễ dàng tham gia các khóa học nâng cao.
+• Dễ dàng tiếp cận với các ngôn ngữ lập trình khác như Visual Basic.Net, C#, C++, PHP, Java,...
+
+III. NỘI DUNG KHÓA HỌC:
+• Tổng quan lập trình Python
+• Giới thiệu về Python
+• Cài đặt môi trường lập trình (Python + IDEs)
+• Viết và thực thi chương trình Python đầu tiên
+• Biến và các kiểu dữ liệu
+• Biến và quy ước đặt tên
+• Các thao tác nhập/xuất dữ liệu
+• Kiểu dữ liệu:
+• Kiểu số (number): int, float
+• Kiểu chuỗi (string): str
+• Kiểu luận lý (boolean): bool
+• Chuyển đổi kiểu dữ liệu
+• Toán tử
+• Toán tử số học
+• Toán tử gán
+• Toán tử so sánh
+• Toán tử logic
+• Toán tử thành phần
+• Toán tử định danh
+• Cấu trúc điều khiển
+•	 if
+•	 if...else...
+•	 if...elif...else...
+• Cấu trúc lặp
+• Vòng lặp:
+•	 While
+•	 for
+• Sử dụng else trong vòng lặp
+• Câu lệnh break và continue
+• Hàm
+• Hàm xây dựng sẵn (Built-in functions)
+• Thư viện xử lý số học (math, random)
+• Thư viện xử lý ngày giờ (time, datetime)
+• Thư viện xử lý lịch (calendar)
+• Hàm do người dùng định nghĩa (User-defined function)
+• Xây dựng hàm và gọi hàm
+• Các loại tham số
+• Hàm lambda
+• Lập trình hướng đối tượng (OOP)
+• Định nghĩa lớp và tạo đối tượng
+• Thuộc tính và phương thức của lớp
+• Phạm vi truy cập (public, private, protected)
+• Các nguyên lý cơ bản của OOP
+• Tính đóng gói
+• Tính kế thừa
+• Tính trừu tượng
+• Tính đa hình
+• Sử dụng super() trong kế thừa
+• Kiểu dữ liệu danh sách
+•	List
+•	Tuple
+•	Dictionary
+•	Set
+• Làm việc với tập tin/thư mục
+• Làm việc với tập tin (tập tin text, tập tin csv)
+• Làm việc với thư mục (directory)
+• Module và Package
+• Sử dụng import
+• Sử dụng from...import...
+• Sử dụng _name__
+• Sử dụng tập tin __init__.py
+• Quản lý package với PIP
+• Xử lý ngoại lệ
+• Sử dụng khối try-except để xử lý các ngoại lệ
+• Sử dụng raise, else và finally
+IV. HOẢN ĐẦU TƯ DÀNH CHO KHÓA HỌC:
+• Thời gian: 5 tuần
+• Tổng số giờ: 40 giờ - 53 tiết, học trực tiếp trên máy
+• Học phí: 2.500.000₫
+• Đặc biệt:
+• Đăng ký Python cơ bản + Python nâng cao = 4.300.000₫ (5.200.000₫) - HV đăng ký tại đây
+• Đăng ký Cơ bản về Python + Xử lý dữ liệu và trực quan hóa bằng Python = 5.000.000₫ (7.000.000₫)
+V. CHỨNG NHẬN KHÓA HỌC
+Học viên thi đạt kết quả cuối môn học sẽ được cấp chứng nhận "Fundamentals of Python - Python cơ bản"
+VI. LỊCH KHAI GIẢNG
+NEW Fundamentals of Python (Python cơ bản) - 40 giờ
+Học phí: 2.500.000₫ - Nhận ƯU ĐÃI HỌC PHÍ khi ghi danh online + hoàn tất đến ngày 21/03/2025
+• Điều kiện cần khi tham gia khóa học: HV có kiến thức tin học văn phòng và sử dụng Internet
+■ Đăng ký Cơ bản về Python + Xử lý dữ liệu và trực quan hóa bằng Python = 5.000.000₫ (7.000.000₫)
+
+VII. CÁC LỚP DỰ KIẾN MỞ
+1.Lớp: DL11_302C7N
+Thời gian: Thứ 7 + Chủ Nhật (13.30 - 17.30)
+Ngày khai giảng: 29/03/2025
+Địa điểm học: 227 Nguyễn Văn Cừ, Q.5
+
+2.Lớp: DL11_302T246
+Thời gian: Thứ 2-4-6 (18.00-21.00)
+Ngày khai giảng: 28/03/2025
+Địa điểm học: 227 Nguyễn Văn Cừ, Q.5
+
+3.Lớp: DL11_302T357_ON
+Thời gian: Thứ 3 - 5 - 7 (18.00-21.00)
+Ngày khai giảng: 29/03/2025
+Địa điểm học: Trực tuyến
+

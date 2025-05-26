@@ -1,0 +1,71 @@
+KHOÁ HỌC: PYTHON ỨNG DỤNG
+
+Fundamentals of Python + Data Manipulation and Visualization with Python
+MỚI
+I. GIỚI THIỆU
+• Khóa học cung cấp cho học viên (HV) những kiến thức nền tảng và những kỹ năng cần thiết để có thể xây dựng các ứng dụng đơn giản bằng Python – một ngôn ngữ lập trình cấp cao, thông dịch, hướng đối tượng và đa mục đích.
+• Rèn luyện và phát triển kỹ năng lập trình, tư duy logic.
+• Xây dựng nền tảng cơ bản vững chắc trong ngôn ngữ lập trình Python tạo tiền đề cho việc học các kiến thức lập trình Web, Game, Desktop, Machine Learning, Data Science... phát triển nghề nghiệp.
+• Giúp HV hiểu rõ về quy trình thực hiện dự án Data Science, nắm vững các kỹ năng cần thiết của xử lý dữ liệu và trực quan hóa dữ liệu trong Data Science.
+• Trang bị cho HV các khái niệm cơ bản về Numpy và Pandas để xử lý dữ liệu hiệu quả.
+• Giúp HV biết cách trực quan hóa dữ liệu với thư viện Matplotlib và Seaborn.
+• Trang bị cho HV các kỹ năng cần thiết để tạo biểu đồ tương tác và trực quan hóa dữ liệu không gian địa lý với Plotly.
+
+II. KHÓA HỌC DÀNH CHO:
+
+• Sinh viên các trường Đại học, Cao đẳng
+• HV có định hướng sẽ làm việc với Python để xây dựng ứng dụng/ Machine Learning/ Data Science
+• Tất cả những ai muốn tìm hiểu về lập trình Python để ứng dụng trong công việc, học tập và cuộc sống.
+• Điều kiện cần khi tham gia khóa học: HV có kiến thức tin học văn phòng và sử dụng Internet
+
+III. BẠN SẼ NHẬN ĐƯỢC GÌ QUA KHÓA HỌC?
+Sau khi hoàn thành khóa học, học viên sẽ đạt được các kỹ năng:
+
+• Python cơ bản (Fundamentals of Python):
+• Sử dụng các cấu trúc trong ngôn ngữ lập trình Python để xây dựng ứng dụng
+• Nắm vững và sử dụng các kiểu dữ liệu, toán tử, cấu trúc điều khiển, cấu trúc lặp.
+• Biết cách xây dựng và sử dụng Hàm (Built-in function và User-defined function).
+• Ứng dụng Lập trình hướng đối tượng (OOP) để giải quyết các vấn đề trong lập trình.
+• Làm việc với kiểu dữ liệu danh sách (List, Tuple, Dictionary và Set)
+• Làm việc với tập tin và thư mục.
+• Tổ chức module/package và quản lý các package với PIP.
+• Nắm vững kiến thức lập trình Python nền tảng, dễ dàng tham gia các khóa học nâng cao.
+• Dễ dàng tiếp cận với các ngôn ngữ lập trình khác như Visual Basic.Net, C#, C++, PHP, Java,...
+• Xử lí và trực quan hóa dữ liệu với Python (Data Manipulation and Visualization with Python):
+• Nắm được các nguyên tắc cơ bản về xử lý thao tác dữ liệu và trực quan hóa dữ liệu.
+• Vận dụng được các thư viện Python Numpy và Pandas vào việc xử lý dữ liệu.
+• Trực quan hóa dữ liệu hiệu quả bằng cách sử dụng các thư viện Matplotlib, Seaborn và Plotly.
+• Phân tích và trực quan hóa dữ liệu một cách hiệu quả trên các bộ dữ liệu trong thực tế.
+
+IV. KHOẢN ĐẦU TƯ DÀNH CHO KHÓA HỌC:
+
+• Thời gian: 10 tuần
+• Thời lượng: 80 giờ, học trực tiếp trên máy
+• Học phí: 5.000.000 đ khi bạn đăng kí trọn khóa Fundamentals of Python + Data Manipulation and Visualization with Python
+
+V. NỘI DUNG KHÓA HỌC:
+
+■ Fundamentals of Python (Python cơ bản)
+■ Data Manipulation and Visualization with Python (Xử lí và trực quan hóa dữ liệu với Python)
+
+VI. LỊCH KHAI GIẢNG
+
+MỚI Cơ bản về Python + Xử lý dữ liệu và trực quan hóa bằng Python - 80 giờ
+Học phí ưu đãi HẤP DẪN: 7.000.000₫ - Ưu đãi: 5.000.000₫
+
+VII. CÁC LỚP DỰ KIẾN MỞ
+1. Lớp: CBDL_302C7N
+Thời gian: Thứ 7 + Chủ Nhật (13.30 - 17.30) - Lịch học môn 'Fundamentals of Python'
+Ngày khai giảng: 29/03/2025
+Địa điểm học: 227 Nguyễn Văn Cừ, Q.5
+
+2.Lớp: CBDL_302T246
+Thời gian: Thứ 2-4-6 (18.00 - 21.00) - Lịch học môn 'Fundamentals of Python'
+Ngày khai giảng: 28/03/2025
+Địa điểm học: 227 Nguyễn Văn Cừ, Q.5
+
+3.Lớp: CBDL_302T357_ON
+Thời gian: Thứ 3-5-7 (18.00-21.00) - Lịch học môn 'Fundamentals of Python'
+Ngày khai giảng: 29/03/2025
+Địa Điểm: Trực tuyến
+

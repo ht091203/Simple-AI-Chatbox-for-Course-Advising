@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khoá học Python</title>
+    <style>
+        .header{
+            background-color: black;
+            color: white;
+            display: flex;
+            height: 70px;
+            line-height: 70px;
+            justify-content:space-between;
+            align-items: center;
+            padding: 0 30px;
+            transition: calc(0.5s);
+        }
+        .header input{
+            background-color: rgb(227, 86, 86);
+            border-radius: 5px;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 130px;
+        }
+        .header input:hover{
+            box-shadow: 0 0 10px 0 rgb(255, 2, 2);
+        }
+        .content{
+            padding: 30px;
+            height: 700px;
+        }
+        .content-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: calc(0.5s);
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .content-item:hover{
+            box-shadow: 0 0 10px 0 rgb(87, 76, 76);
+        }
+        .content-item input{
+            border: none;
+            height: 40px;
+            width: 120px;
+            background-color: rgb(227, 86, 86);
+            border-radius: 5px;
+            color: white;
+            align-self: flex-end;
+        }
+        .footer{
+            background-color: gray;
+            border-radius: 0 0 8px 8px;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        input:hover{
+            box-shadow: 0 0 10px 0 rgb(103, 4, 4);
+        }
+
+        /* CHAT BOX */
+        .chat-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 320px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .chat-header {
+            background-color: rgb(227, 86, 86);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .chat-body {
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-input {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            background: #f9f9f9;
+        }
+        .chat-input textarea {
+            flex: 1;
+            resize: none;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            height: 40px;
+            overflow: hidden;
+        }
+        .chat-input button {
+            background-color: rgb(227, 86, 86);
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        /* Tin nhắn */
+        .message {
+            max-width: 80%;
+            padding: 8px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+            display: inline-block;
+        }
+        .user-message {
+            align-self: flex-end;
+            background-color: rgb(64, 128, 255);
+            color: white;
+            text-align: right;
+        }
+        .bot-message {
+            align-self: flex-start;
+            background-color: #eee;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>NHÓM 4</h1>
+            <input type="button" onclick="toggleChat()" value="Liên hệ tư vấn">
+        </div>
+        <div class="content">
+            <div class="content-item">
+                <h2>KHOÁ HỌC PYTHON ỨNG DỤNG</h2>
+                <p>Xây dựng nền tảng cơ bản vững chắc trong ngôn ngữ lập trình Python tạo tiền đề cho việc học các kiến thức lập trình Web, Game, Desktop, Machine Learning, Data Science... phát triển nghề nghiệp.</p>
+                <input type="button" onclick="toggleChat()" value="Nhận tư vấn">
+            </div>
+            <div class="content-item">
+                <h2>KHOÁ HỌC PYTHON CƠ BẢN</h2>
+                <p>Khóa học cung cấp cho học viên (HV) những kiến thức nền tảng và những kỹ năng cần thiết để có thể xây dựng các ứng dụng đơn giản bằng Python – một ngôn ngữ lập trình cấp cao, thông dịch, hướng đối tượng và đa mục đích.</p>
+                <input type="button" onclick="toggleChat()" value="Nhận tư vấn">
+            </div>
+        </div>
+        <!-- CHAT BOX -->
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">Tư vấn khoá học <span style="float:right; cursor:pointer;" onclick="toggleChat()">✖</span></div>
+            <div class="chat-body" id="messages"></div>
+            <div class="chat-input">
+                <textarea id="message" placeholder="Nhập tin nhắn..." onkeypress="handleKeyPress(event)"></textarea>
+                <button onclick="sendMessage()">Gửi</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <h3>Nhóm 4</h3>
+            </div>
+            <div class="right">
+                
+                <ul> <h4>Thành viên nhóm 4</h4>
+                    <li>Huỳnh Thị Mộng Tuyền</li>
+                    <li>Nguyễn Đăng Khoa</li>
+                    <li>Nguyễn Trường Thọ</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleChat() {
+            const chatBox = document.getElementById('chatBox');
+            chatBox.style.display = chatBox.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+
+        async function sendMessage() {
+            const messageInput = document.getElementById('message');
+            const messagesContainer = document.getElementById('messages');
+            const messageText = messageInput.value.trim();
+
+            if (!messageText) return;
+
+            // Hiển thị tin nhắn người dùng
+            const userMessage = document.createElement("div");
+            userMessage.classList.add("message", "user-message");
+            userMessage.innerHTML = messageText;
+            messagesContainer.appendChild(userMessage);
+            messageInput.value = "";
+
+            // Cuộn xuống cuối
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: messageText })
+                });
+
+                const data = await response.json();
+
+                // Hiển thị tin nhắn từ AI
+                const botMessage = document.createElement("div");
+                botMessage.classList.add("message", "bot-message");
+                botMessage.innerHTML = data.response;
+                messagesContainer.appendChild(botMessage);
+
+                // Cuộn xuống cuối
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            } catch (error) {
+                console.error("Lỗi khi gửi tin nhắn:", error);
+            }
+        }
+    </script>
+</body>
+</html>
